@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BADA">
+      <UniqueIdentifier>{32dde3dd-b356-42b8-93b8-66d99c05cf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b5e52cc0-bcdc-4d29-9dc4-6fa4d1169b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6c1bcda4-ddcb-48c1-9eba-351dbf3226ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{9c5c54c7-16a3-4479-8ed7-9fba8d1e2635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Public">
+      <UniqueIdentifier>{e510c8a3-228f-4396-8da5-be7b3950ee05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Public">
+      <UniqueIdentifier>{303874e3-1d25-4778-94e0-adffb0670764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Public">
+      <UniqueIdentifier>{1c2ba60c-f6e3-42a3-bd90-ec535a170db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Public\Util">
+      <UniqueIdentifier>{43cd7e01-6619-44ee-a4f1-0ca670f0470f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Public\Containers">
+      <UniqueIdentifier>{c42c6ce6-8634-4646-a9c4-5293a1a08d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BADA\Public">
+      <UniqueIdentifier>{d3cea53d-2bc1-4341-8d72-aed8e1506ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BADA\Private">
+      <UniqueIdentifier>{df5de8d0-48e2-4667-b9dc-73a12b47fddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BADA\Private\App">
+      <UniqueIdentifier>{9898a250-50b9-4c83-896a-c6be3c324f2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\DynamicVector.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\FixedVector.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\LinkedList.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\Map.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\Queue.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Containers\Stack.h">
+      <Filter>Core\Public\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\ArrayUtil.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\Assert.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\ChunkedMemoryPool.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\HashFunctions.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\ObjectPool.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\SafeDelete.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\SortFunctions.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\StaticMemoryPool.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\StringMacro.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Core\Public\Util\Timer.h">
+      <Filter>Core\Public\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Public\Color.h">
+      <Filter>Math\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Public\IntVector2.h">
+      <Filter>Math\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Public\MathUtil.h">
+      <Filter>Math\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Public\Vector2.h">
+      <Filter>Math\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Renderer\Public\IRendererDDraw.h">
+      <Filter>Renderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Renderer\Public\RegionCode.h">
+      <Filter>Renderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Renderer\Public\RendererDDraw.h">
+      <Filter>Renderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BADA\Public\canvas.h">
+      <Filter>BADA\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BADA\Private\App\Event.h">
+      <Filter>BADA\Private\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BADA\Private\App\Window.h">
+      <Filter>BADA\Private\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BADA\Private\App\App.h">
+      <Filter>BADA\Private\App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BADA\Private\App\Event.cpp">
+      <Filter>BADA\Private\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BADA\Private\App\Main.cpp">
+      <Filter>BADA\Private\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BADA\Private\App\Window.cpp">
+      <Filter>BADA\Private\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BADA\Private\canvas.c">
+      <Filter>BADA\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BADA\Private\App\App.cpp">
+      <Filter>BADA\Private\App</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
